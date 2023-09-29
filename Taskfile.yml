@@ -1,0 +1,13 @@
+version: 3
+
+includes:
+  python:
+    taskfile: ./src/python/Taskfile.yml
+    dir: ./docs
+
+tasks:
+  default:
+    desc: "Default task"
+    silent: true
+    cmds:
+      - task -a

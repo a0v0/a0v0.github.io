@@ -2,7 +2,6 @@
 layout: default
 ---
 
+# List of webpages available
 
-## Here is a list webpages hosted on this site:
-
-1.  [Portfolio](./html/portfolio.html): Personal portfolio made with pure HTML
+1. [Portfolio](./src/html/portfolio.html): Personal portfolio made with pure HTML
