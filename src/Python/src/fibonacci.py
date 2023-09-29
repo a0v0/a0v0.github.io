@@ -1,7 +1,9 @@
-# print fibonacci upto a given n numbers
+# write a program to print fibonacci series upto n terms
+
+n = int(input("Enter no: "))
 
 
-def fib(n):
+def printFibonacci(n):
     first = 0
     second = 1
 
@@ -15,7 +17,8 @@ def fib(n):
             third = first + second
             first = second
             second = third
+
             print(second, end=" ")
 
 
-fib(int(input("Enter a number: ")))
+printFibonacci(n)
