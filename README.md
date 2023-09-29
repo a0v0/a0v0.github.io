@@ -1,4 +1,13 @@
 # aV Projects
-Projects, sites, webpages build during learning phase
 
-Site: https://a0v0.github.io/
+Repo is a hub for all my code written during my learning phase of a certain language or framework.
+
+# Directory Structure
+
+## Python
+
+- `dir`:[ src/python](./src/python/)
+
+## HTML
+
+- dir: [src/html](./src/html/)
