@@ -10,4 +10,4 @@ Repo is a hub for all my code written during my learning phase of a certain lang
 
 ## HTML
 
-- dir: [src/html](./src/html/)
+- `dir`: [ src/html](./src/html/)
