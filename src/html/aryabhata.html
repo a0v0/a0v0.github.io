@@ -1,0 +1,112 @@
+<!-- # Create a boxing model inside that use code tag, inside code tag write the code
+of fibonacci series. Than at the right side use one image of aryabhaatta and
+below the image of aryabhaatta write his existense, and when you click on
+existense it will be able to change the color to seagreen, it will redirect you
+to aryabhaatta wiki page. text written inside code will be purple color
+
+In pre tag you can add your bio tag
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aryabhatta</title>
+  <style>
+    body {
+      /* background-color: rgb(29, 184, 127); */
+     
+      
+    }
+.largefont{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    .border {
+      padding: 20px;
+      border-radius: 10px;
+      border: 5px solid black;
+    }
+
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #code {
+      color: purple;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      color: seagreen;
+    }
+    .threed,img{
+      box-shadow: #00000063 -20px 17px 20px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div >
+
+    <div>
+      <table>
+        <tbody>
+          <tr>
+            <td class="threed largefont border" colspan="2" style="font-size: 50px;text-align: center;background-color: yellow;">Aryabhata</td>
+          </tr>
+          <tr>
+            <td><img style="border-radius: 50px;" src="https://vignette.wikia.nocookie.net/math-physics-problems/images/4/44/Aryabhata.jpg/revision/latest?cb=20180311193913" alt="Aryabhatta" /></td>
+            <td>
+          <pre><code class="largefont" id="code"   >
+            nterms = int(input("How many terms? "))
+          
+            # first two terms
+            n1, n2 = 0, 1
+            count = 0
+            
+            # check if the number of terms is valid
+            if nterms <= 0:
+               print("Please enter a positive integer")
+            # if there is only one term, return n1
+            elif nterms == 1:
+               print("Fibonacci sequence upto",nterms,":")        
+               print(n1)
+            # generate fibonacci sequence
+            else:
+               print("Fibonacci sequence:")
+               while count < nterms:
+                   print(n1)
+                   nth = n1 + n2
+                   # update values
+                   n1 = n2
+                   n2 = nth
+                   count += 1
+          </code>
+        </pre
+          ></td>
+        
+      </tr>
+      <tr>
+        <td   class="threed largefont border" colspan="2" style="text-align: center;background-color: yellow;"><a style="font-size: 30px;" href="https://en.wikipedia.org/wiki/Aryabhata">Read More</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+        
+      </code>
+    </div>
+</body>
+
+</html>
