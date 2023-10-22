@@ -1,6 +1,6 @@
 # HTML Lab
 
-Repo to track all the python code I wrote in python classes
+Repo to track all the HTML code I wrote in html classes
 
 # Directory Structure
 
