@@ -1,13 +1,7 @@
 # aV Projects
 
-Repo is a hub for all my code written during my learning phase of a certain language or framework.
+Repo to track all the python code I wrote in python classes
 
 # Directory Structure
 
-## Python
-
-- `dir`:[ src/python](./src/python/)
-
-## HTML
-
-- `dir`: [ src/html](./src/html/)
+HTML code is present in [ src](./src) dir.
