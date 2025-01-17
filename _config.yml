@@ -1,7 +1,0 @@
-title: aV Projects
-description: Projects, sites, webpages build during learning phase
-show_downloads: false
-google_analytics:
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-  - jekyll-remote-theme
